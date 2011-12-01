@@ -1,6 +1,9 @@
 ### introduction
 A simple jquery gallery plugin, it displays an image and then some thumbs underneath.
 
+### example
+[here](http://ed.eustace.net/simple-gallery/example/index.html)
+
 ### usage
     <div id="gallery">
        <div id="thumbs">
