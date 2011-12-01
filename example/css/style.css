@@ -1,0 +1,312 @@
+/* ccs file for fmd site version 02 created by fiona mcdermott */
+
+/* TODO correct two instances of hr 
+        links to section pages */
+
+/* Galleria */
+
+.content{
+    color:#eee;
+    width:620px;
+    margin:20px auto;
+}
+#gallery{
+    background-color: #404041;
+    height:620px;
+    width: 935px;
+    padding-top: 0px;
+}
+.thumbHolder{
+
+    float: left;
+    padding-left: 0px;
+    padding-right: 5px;
+}
+.loadingInfoItem
+{
+	background-image: url('../images/loader.gif');
+    position: relative;
+    width: 12px;
+    height: 12px;
+    padding: 2px;
+    color: #ffffff;
+    background-color: #404041;
+    top: -42px;
+	left: 50px;
+    z-index: 1000;
+    clear: left;
+
+}
+body
+{    
+    padding: 0;
+    color:#B4AB84;
+}
+
+
+
+.contentHolder
+{
+    width: 925px;
+    height: 100%;
+    margin-bottom:0;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0;
+    position:relative;
+}
+img{
+
+    border-style: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #404041;
+  font-family: luxi-sans-1,luxi-sans-2, sans-serif;    
+}
+.projectHolder
+{
+    padding-top: 10px;
+
+}
+.projectTitle
+{
+    padding-left: 0px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #B4AB84;
+}
+.projectTopSection{
+    height: 110px;
+}
+
+
+
+.projectDescription
+{
+    padding-left: 0px;
+    font-size: 13px;
+    height: 30px;
+    padding-bottom: 10px;
+}
+
+
+.header{
+}
+td.header a{
+    font-size: 25px;
+}
+td.header a:hover
+{
+    color: #5d5858;
+}
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    display: table-cell;
+    vertical-align: bottom;
+    padding: 0px;  
+
+}
+li,
+li.firstMenuItem
+{
+    display: table-cell;
+text-align:right;
+    vertical-align: bottom;
+    float: left;
+    padding: 0px;
+    padding-top: 3px;
+    padding-left: 30px;
+
+}
+ul.mainMenu
+{
+	text-align:right;
+  padding-top: 40px;
+}
+
+
+li.firstMenuItem{
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+td{
+    vertical-align: bottom;
+}
+
+div.top{
+    position: absolute;
+    width: 100%;
+}
+div.top div{
+    position: relative;
+}
+div.right{
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+}
+.contentArea{
+
+     min-height:740px;
+     height:auto !important;
+     height:740px; 
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+div.top{
+    position: relative;
+    left: 0px;
+}
+#topleft
+{
+    font-size: 26px;
+    left: 5px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.wrapper{
+    position: relative;
+    float: left;
+    left: 0px;
+    top: 20px;
+    padding-bottom: 40px;
+    width: 935px;
+    margin-bottom: 0px;
+    background-color: #ffffff;
+}
+
+.left1,.left2,.left3{
+    position: relative;
+    padding-bottom: 0px;
+    float: left;
+    width: 285px;
+    height: 265px;
+    border-bottom: solid 0px #B4AB84;
+    background-color: #ffffff;
+}
+.left1{
+    left: 0px;
+}
+.left2{
+    left: 40px;
+}
+.left3{
+    left: 80px;
+}
+
+body {
+    border-width: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#topright
+{
+    text-align: right;
+    top: 10px;
+    font-size: 15px;
+    right: 0px;
+    font-style: italic;
+}
+
+a:link,
+a:visited,
+a:hover
+a:active{
+    text-decoration: none;
+    font-size: 15px;
+    outline: none;
+}
+
+.sectionTitle
+{
+    height: 25px;
+}
+
+
+a div.sectionTitle
+{
+    padding-left: 0px;
+
+}
+a:hover div.sectionTitle,
+a:hover
+{
+    color: #B4AB84;
+
+}
+
+a.activeLink{
+    color: #96aaa8;
+    color: #535758;
+    font-weight: 800;
+
+}
+
+a.homeMenuItem
+{
+  font-size: 20px;
+}
+span{
+    padding-left: 20px;
+}
+span.firstMenuItem
+{
+    padding-left: 0px;
+}
+.details{
+    width: 935px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 13px;
+}
+.detailsEmailLink{
+    top: 8px;
+    right: 0px;
+}
+span.imagesHolder,
+span.imageHolder
+{
+    padding-left:0px;
+
+}
+#menuBar
+{
+    top: 140px;
+    left: 5px;
+    position: absolute;
+    font-style: italic;
+}
+
+#frontimageholder
+{
+    padding-top: 80px;
+    top: 80px;
+    padding-bottom: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+hr
+{
+    position: absolute;
+    width: 935px;
+    padding: 0px;
+    margin: 0px;
+    color:#404041;
+    border-color: #B4AB84;
+    border-width: 1px;
+    border: none 0;
+    border-top: 1px solid #B4AB84;/*the border*/
+    height: 1px;/*whatever the total width of the border-top and border-bottom equal*/
+}
