@@ -3,18 +3,23 @@ A simple jQuery plugin that shows images in a gallery format.
 ###
 jQuery.fn.simpleGallery = (options)->
   
-  if options?
-    config = options
-  else
-    config = 
-      uid: Math.floor( Math.random() * 1000)
-      fadeTime: 700
-      easeIn : 'easeInSine'
-      easeOut : 'easeInSine'
-      activeAlpha : 1
-      nonActiveAlpha : 0.6
-      mouseOverAlpha: 0.8
+  defaultConfig = 
+    uid: Math.floor( Math.random() * 1000)
+    fadeTime: 700
+    easeIn : 'easeInSine'
+    easeOut : 'easeInSine'
+    activeAlpha : 1
+    nonActiveAlpha : 0.6
+    mouseOverAlpha: 0.8
 
+  if options?
+    config = $.extend defaultConfig, options
+  else
+    config = defaultConfig
+
+  ###
+  vars
+  ###
   imageLoadInProgress = false
   loadedImages = {}
   activeImageUrl = ""
@@ -22,7 +27,9 @@ jQuery.fn.simpleGallery = (options)->
   loadFirstImage = true
 
 
-
+  ###
+  methods
+  ###
   loadImage = (url) ->
     if imageLoadInProgress 
       return
